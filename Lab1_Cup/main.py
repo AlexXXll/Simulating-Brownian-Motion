@@ -1,35 +1,22 @@
 import numpy as np
-import math
 import matplotlib.pyplot as plt
+import scipy.stats as stats
+
+def main():
+    n = 10000
+    d = int(input("Введите колличество траекторий: "))
+    T = 1
+    times = np.linspace(0., T, n)
+    dt = times[1] - times[0]
+    dB = np.sqrt(dt) * np.random.normal(size=(n-1, d))
+    B0 = np.zeros(shape=(1, d))
+    B = np.concatenate((B0, np.cumsum(dB, axis=0)), axis=0)
+    P = stats.poisson.rvs
+    plt.plot(times, B)
+    plt.plot(times, P)
+    plt.show()
 
 
-# noinspection PyUnresolvedReferences
-class stohasticprocess:
+if __name__ == '__main__':
+    main()
 
-    def time_step(self):
-        dW = np.random.normal(0, math.sqrt(self.delta_t))
-        dS = self.drift*self.delta_t*self.current_asset_price + self.volatility*self.current_asset_price*dW
-        self.asset_prices.append(self.current_asset_price + dS)
-        self.current_asset_price = self.current_asset_price + dS
-
-    def __init__(self, drift, volatility, delta_t, initial_asset_price):
-        self.drift = drift
-        self.volatility = volatility
-        self.delta_t = delta_t
-        self.current_asset_price = initial_asset_price
-        self.asset_prices = [initial_asset_price]
-
-processes = []
-for i in range(0, 100):
-    processes.append(stohasticprocess(.2, .3, 1/365, 300))
-
-for process in processes:
-    tte = 1
-    while((tte - process.delta_t) > 0):
-        process.time_step()
-        tte = tte - process.delta_t
-
-print(processes[0].asset_prices)
-
-x = plt.plot(np.arange(0, len(processes[0].asset_prices)), processes[0].asset_prices)
-plt.show()
