@@ -11,9 +11,11 @@ def main():
     dB = np.sqrt(dt) * np.random.normal(size=(n-1, d))
     B0 = np.zeros(shape=(1, d))
     B = np.concatenate((B0, np.cumsum(dB, axis=0)), axis=0)
-    P = stats.poisson.rvs
+    P = stats.poisson.rvs(mu = 0.9, loc = 0, size=(n-1,d))
     plt.plot(times, B)
-    plt.plot(times, P)
+    plt.show()
+    plt.figure()
+    plt.hist( P, T, density=True)
     plt.show()
 
 

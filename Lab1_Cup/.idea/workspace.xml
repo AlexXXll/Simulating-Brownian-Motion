@@ -40,7 +40,7 @@
       <recent name="C:\Users\Алекс\PycharmProjects\Lab1_Cup" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main(1)">
+  <component name="RunManager" selected="Python.Lab1_Cup">
     <configuration name="Lab1_Cup" type="PythonConfigurationType" factoryName="Python">
       <module name="Lab1_Cup" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -120,6 +120,7 @@
       <workItem from="1618816514841" duration="9180000" />
       <workItem from="1618985344697" duration="2161000" />
       <workItem from="1619417203163" duration="7374000" />
+      <workItem from="1619503899598" duration="2106000" />
     </task>
     <servers />
   </component>
@@ -159,6 +160,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1619439766991" />
+    <state x="758" y="156" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1619524503387">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="758" y="156" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1619524503387" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
