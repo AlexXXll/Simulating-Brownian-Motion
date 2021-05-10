@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d9775c1f-c070-4fe2-94e8-2c3d6b4e745f" name="Default Changelist" comment="" />
+    <list default="true" id="d9775c1f-c070-4fe2-94e8-2c3d6b4e745f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/Pillow-8.2.0.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/Pillow-8.2.0.dist-info/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/Pillow-8.2.0.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/Pillow-8.2.0.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/Pillow-8.2.0.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/Pillow-8.2.0.dist-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/Pillow-8.2.0.dist-info/zip-safe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Lab1_Cup.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Lab1_Cup.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main(1).py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,6 +37,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -34,6 +48,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -45,7 +60,10 @@
       <module name="Lab1_Cup" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\Admin\PycharmProjects\untitled\venv\Scripts\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -125,6 +143,12 @@
       <workItem from="1619417203163" duration="7374000" />
       <workItem from="1619503899598" duration="2170000" />
       <workItem from="1619592524765" duration="5443000" />
+      <workItem from="1619634125387" duration="784000" />
+      <workItem from="1619634953952" duration="192000" />
+      <workItem from="1619635279964" duration="127000" />
+      <workItem from="1619635434941" duration="3754000" />
+      <workItem from="1620574955591" duration="9610000" />
+      <workItem from="1620632682131" duration="5765000" />
     </task>
     <servers />
   </component>
@@ -132,41 +156,62 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1619439766991">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="388" y="0" key="#Lab1_Cup" timestamp="1619634360510">
+      <screen x="0" y="0" width="1360" height="738" />
     </state>
+    <state x="388" y="0" key="#Lab1_Cup/0.0.1360.738@0.0.1360.738" timestamp="1619634360510" />
+    <state x="451" y="149" key="FileChooserDialogImpl" timestamp="1619635844528">
+      <screen x="0" y="0" width="1360" height="738" />
+    </state>
+    <state x="451" y="149" key="FileChooserDialogImpl/0.0.1360.738@0.0.1360.738" timestamp="1619635844528" />
+    <state width="1315" height="226" key="GridCell.Tab.0.bottom" timestamp="1619636517514">
+      <screen x="0" y="0" width="1360" height="738" />
+    </state>
+    <state width="1315" height="226" key="GridCell.Tab.0.bottom/0.0.1360.738@0.0.1360.738" timestamp="1619636517514" />
     <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1619439766991" />
-    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1619439766990">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1315" height="226" key="GridCell.Tab.0.center" timestamp="1619636517513">
+      <screen x="0" y="0" width="1360" height="738" />
     </state>
+    <state width="1315" height="226" key="GridCell.Tab.0.center/0.0.1360.738@0.0.1360.738" timestamp="1619636517513" />
     <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1619439766990" />
-    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1619439766990">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1315" height="226" key="GridCell.Tab.0.left" timestamp="1619636517513">
+      <screen x="0" y="0" width="1360" height="738" />
     </state>
+    <state width="1315" height="226" key="GridCell.Tab.0.left/0.0.1360.738@0.0.1360.738" timestamp="1619636517513" />
     <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1619439766990" />
-    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1619439766991">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1315" height="226" key="GridCell.Tab.0.right" timestamp="1619636517514">
+      <screen x="0" y="0" width="1360" height="738" />
     </state>
+    <state width="1315" height="226" key="GridCell.Tab.0.right/0.0.1360.738@0.0.1360.738" timestamp="1619636517514" />
     <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1619439766991" />
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1619439766991">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1315" height="226" key="GridCell.Tab.1.bottom" timestamp="1619636517514">
+      <screen x="0" y="0" width="1360" height="738" />
     </state>
+    <state width="1315" height="226" key="GridCell.Tab.1.bottom/0.0.1360.738@0.0.1360.738" timestamp="1619636517514" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1619439766991" />
-    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1619439766991">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1315" height="226" key="GridCell.Tab.1.center" timestamp="1619636517514">
+      <screen x="0" y="0" width="1360" height="738" />
     </state>
+    <state width="1315" height="226" key="GridCell.Tab.1.center/0.0.1360.738@0.0.1360.738" timestamp="1619636517514" />
     <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1619439766991" />
-    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1619439766991">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1315" height="226" key="GridCell.Tab.1.left" timestamp="1619636517514">
+      <screen x="0" y="0" width="1360" height="738" />
     </state>
+    <state width="1315" height="226" key="GridCell.Tab.1.left/0.0.1360.738@0.0.1360.738" timestamp="1619636517514" />
     <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1619439766991" />
-    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1619439766991">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1315" height="226" key="GridCell.Tab.1.right" timestamp="1619636517514">
+      <screen x="0" y="0" width="1360" height="738" />
     </state>
+    <state width="1315" height="226" key="GridCell.Tab.1.right/0.0.1360.738@0.0.1360.738" timestamp="1619636517514" />
     <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1619439766991" />
-    <state x="758" y="156" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1619593649233">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="180" y="13" key="SettingsEditor" timestamp="1620575538796">
+      <screen x="0" y="0" width="1360" height="738" />
     </state>
+    <state x="180" y="13" key="SettingsEditor/0.0.1360.738@0.0.1360.738" timestamp="1620575538796" />
+    <state x="537" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1620635234158">
+      <screen x="0" y="0" width="1360" height="738" />
+    </state>
+    <state x="537" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1360.738@0.0.1360.738" timestamp="1620635234158" />
     <state x="758" y="156" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1619593649233" />
   </component>
   <component name="XDebuggerManager">
@@ -181,6 +226,6 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Lab1_Cup$Lab1_Cup.coverage" NAME="Lab1_Cup Coverage Results" MODIFIED="1619429769896" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Lab1_Cup$Lab1_Cup.coverage" NAME="Lab1_Cup Coverage Results" MODIFIED="1619636487662" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
